@@ -1,20 +1,23 @@
 # Script-Directory
 This is planned to be a landing page to help expose several demo assets that the field has found useful as part of a core demo or taylored demo.
 
-**Most** of these scripts are not considered as part of the "core" demo assets which means you will **not** find them delivered as part of the [devops.dockerapp](https://hub.docker.com/r/admpresales/devops.dockerapp/) or the [devops](https://hub.docker.com/r/admpresales/devops/) images.
+**Most** of these scripts are not considered as part of the "core" demo assets which means you will **not** find them delivered as part of the [devops.dockerapp](https://hub.docker.com/r/admpresales/devops.dockerapp/) or the [devops](https://hub.docker.com/r/admpresales/devops/) images.  Scripts that are shown on this page that are part of the core scripts delivered in the Devops image are noted with '(c)'.  For example:
+```
+leanft-gherkin (c)
+```
 
-Instructions on [How to add test to devops container](#How-to-add-test-to-devops-container)
+Instructions on [How to add test to devops container](#How-to-add-test-to-devops-container) can be found below.
 
 ## UFT Pro (LeanFT) Scripts
 | Script Name      | Note                               |
 | ---------------- | ---------------------------------- |
-| [leanft-gherkin](https://github.com/admpresales/leanft-gherkin) | IntelliJ - maven project which uses LeanFT and gherkins feature file and cucumber for execution.  This one actually executes a test against AOS|
-|[octane-gherkin](https://github.com/admpresales/octane-gherkin)|Very similar to LeanFT_Gherkins with the exception that the Gherkin step definitions are left empty so it runs faster.  The intent here is used when focusing on Octane demos only and LFT is not a focus.|
-|[lft4se](https://github.com/admpresales/lft4se) | Maven project demonstrating using LeanFT for Selenium in a simple project.  This was created using the Selenium OIC.|
+| [leanft-gherkin](https://github.com/admpresales/leanft-gherkin) (c)| IntelliJ - maven project which uses LeanFT and gherkins feature file and cucumber for execution.  This one actually executes a test against AOS|
+|[octane-gherkin](https://github.com/admpresales/octane-gherkin) (c)|Very similar to LeanFT_Gherkins with the exception that the Gherkin step definitions are left empty so it runs faster.  The intent here is used when focusing on Octane demos only and LFT is not a focus.|
+|[aos-web-lft4se](https://github.com/admpresales/aos-web-lft4se) | Maven project demonstrating using LeanFT for Selenium in a simple project.  This was created using the Selenium OIC.|
+|[simple-lft-selenium](https://github.com/admpresales/simple-lft-selenium)|Simple script demonstrating Selenium and LFT used together.  With webdriver launching and LFT attaching to browser and using the Verify and Reporter classes|
 |[Mobile_AOS_Test](https://github.com/panama69/Mobile_AOS_Test)|Simple LFT test against AOS on an Android device|
 |[LeanFT_AppliTools](https://github.com/panama69/LeanFT_AppliTools)|Very simple LeanFT/AppliTools test using C#.  The code came from AppliTools website but I add information to readme to aid in setting things up|
 |[LeanFT_Cross_Browser_Mobile](https://github.com/panama69/LeanFT_Cross_Browser_Mobile)|Simple script showing execution across the desktop Firefox browser and the iPhone Safari browser.| 
-|[simple-lft-selenium](https://github.com/admpresales/simple-lft-selenium)|Simple script demonstrating Selenium and LFT used together.  With webdriver launching and LFT attaching to browser and using the Verify and Reporter classes|
 |[testng-example](https://github.com/panama69/testng-example)|Simple TestNG tests using LeanFT Reports to demonstrate how to run TestNG in parallel and pass arguments to a test|
 
 ## UFT Scripts
