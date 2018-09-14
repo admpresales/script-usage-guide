@@ -6,7 +6,7 @@ This is planned to be a landing page to help expose several demo assets that the
 leanft-gherkin (c)
 ```
 
-Instructions on [How to add test to devops container](/script-directory#how-to-add-test-to-devops-container) can be found below.
+Instructions on [How to add test to devops container](#how-to-add-test-to-devops-container) can be found below.
 
 ## UFT Pro (LeanFT) Scripts
 | Script Name      | Note                               |
