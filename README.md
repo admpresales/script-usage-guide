@@ -18,7 +18,7 @@ Instructions on [How to add test to devops container](#How-to-add-test-to-devops
 |[Mobile_AOS_Test](https://github.com/panama69/Mobile_AOS_Test)|Simple LFT test against AOS on an Android device|
 |[LeanFT_AppliTools](https://github.com/panama69/LeanFT_AppliTools)|Very simple LeanFT/AppliTools test using C#.  The code came from AppliTools website but I add information to readme to aid in setting things up|
 |[LeanFT_Cross_Browser_Mobile](https://github.com/panama69/LeanFT_Cross_Browser_Mobile)|Simple script showing execution across the desktop Firefox browser and the iPhone Safari browser.| 
-|[testng-example](https://github.com/panama69/testng-example)|Simple TestNG tests using LeanFT Reports to demonstrate how to run TestNG in parallel and pass arguments to a test|
+|[testng-example](https://github.com/admpresales/testng-example)|Simple TestNG tests using LeanFT Reports to demonstrate how to run TestNG in parallel and pass arguments to a test|
 
 ## UFT Scripts
 | Script Name      | Note                               |
@@ -30,8 +30,6 @@ Instructions on [How to add test to devops container](#How-to-add-test-to-devops
 | ---------------- | ---------------------------------- |
 |[jenkins-jobs](https://github.houston.softwaregrp.net/AMSPreSales-Demos/jenkins-jobs)|This is a set of scripts to extract or deploy Jenkins views and jobs.  It also contains the jobs and views from the released version of the devops docker image|
 |[Docker Server Scripts](https://github.com/panama69/DockerScripts.git)|Scripts used to start various containers for the demos|
-|[Docker Server Scripts](https://github.houston.softwaregrp.net/AMSPreSales-Demos/DockerServerScripts)| (deprecated) same as above but on NewCo Github|
-
 
 ## Branching and Merging strategies
 [A Successful Git Branching Model](http://nvie.com/posts/a-successful-git-branching-model/)
@@ -43,3 +41,16 @@ Instructions on [How to add test to devops container](#How-to-add-test-to-devops
 [Git Tip: Tags](http://alblue.bandlem.com/2011/04/git-tip-of-week-tags.html)
 
 ## How to add test to devops container
+&#x1F340; `If you can connect to www.github.com from your devops container, then from a terminal window on NimbusServer with the devops container up, run the following command:`
+
+```
+docker exec devops bash -c "su -s /bin/bash -c 'git clone --mirror https://github.com/admpresales/aos-web-lft4se.git /gitrepo/aos-web-lft4se' apache"
+```
+
+`If your container can not connect to the internet, then use these from your terminal window`
+```
+git clone --mirror https://github.com/admpresales/aos-web-lft4se.git aos-web-lft4se
+docker cp aos-web-lft4se devops:/gitrepo
+docker exec devops bash -c 'chown -R apache:apache /gitrepo/aos-web-lft4se'
+```
+**You would of course replace the url and name to the git project you wish to use in the above steps**
