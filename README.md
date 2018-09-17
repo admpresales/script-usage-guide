@@ -24,7 +24,7 @@ Instructions on [How to add test to devops container](#how-to-add-test-to-devops
 ## UFT Scripts
 | Script Name      | Note                               |
 | ---------------- | ---------------------------------- |
-|[UFT-Comprehensive-FlightGUI](https://github.com/rsercely/UFT-Comprehensive-FlightGUI)|UFT script demonstrating several capabilites of UFT (courtesy Ron Sercely) |
+|[comprehensive-uft-test-flightgui](https://github.com/admpresales/comprehensive-uft-test-flightgui)|UFT script demonstrating several capabilites of UFT (courtesy Ron Sercely) |
 
 ## Utility scripts
 | Script Name      | Note                               |
