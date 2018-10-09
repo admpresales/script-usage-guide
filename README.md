@@ -8,7 +8,7 @@ leanft-gherkin (c)
 
 Instructions on [How to add test to devops container](#how-to-add-test-to-devops-container) can be found below.
 
-## UFT Pro (LeanFT) Scripts
+## LeanFT Scripts
 | Script Name      | Note                               |
 | ---------------- | ---------------------------------- |
 | [leanft-gherkin](https://github.com/admpresales/leanft-gherkin) (c)| IntelliJ - maven project which uses LeanFT and gherkins feature file and cucumber for execution.  This one actually executes a test against AOS|
@@ -26,6 +26,11 @@ Instructions on [How to add test to devops container](#how-to-add-test-to-devops
 | ---------------- | ---------------------------------- |
 |[flight-api-with-gui-verification](https://github.com/admpresales/flight_api_with_gui_verification)|Demonstrates using API test interacting (calling) GUI test.  This script is great for showing customer the value of using API testing with their regression suites. Much of regression testing is setting up specific data secnarios to users can perform the actual test they need. Using API for the setup can drastically reduce the oveall execution time.|
 |[comprehensive-uft-test-flightgui](https://github.com/admpresales/comprehensive-uft-test-flightgui)|UFT script demonstrating several capabilites of UFT (courtesy Ron Sercely) |
+
+## VUGen scripts
+| Script Name      | Note                               |
+| ---------------- | ---------------------------------- |
+|[TruClient Native Mobile](https://github.com/admpresales/AOS_TruClient_buy_headphones_with_transactions)|This is a simple TruClient mobile script for iOS. Works against the AOS app|
 
 ## Utility scripts
 | Script Name      | Note                               |
