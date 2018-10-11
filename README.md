@@ -6,7 +6,11 @@ This is planned to be a landing page to help expose several demo assets that the
 leanft-gherkin (c)
 ```
 
-Instructions on [How to add test to devops container](#how-to-add-test-to-devops-container) can be found below.
+Instructions on [How to add test to devops container](#how-to-add-test-to-devops-container) can be found below.  Please make sure all projects have a useful README.md on how one should use the script.  Help on how to create the README.md using the github markdown language can be found:
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Basic Writing and Formatting](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+* [Markdown Cheatsheet PDF](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## LeanFT Scripts
 | Script Name      | Note                               |
