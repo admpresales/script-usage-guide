@@ -52,6 +52,7 @@ Instructions on [How to add test to devops container](#how-to-add-test-to-devops
 [Git Tip: Tags](http://alblue.bandlem.com/2011/04/git-tip-of-week-tags.html)
 
 ## Postman Client
+[Postman Echo](https://docs.postman-echo.com/)
 [Postman Cheatsheet](https://media.readthedocs.org/pdf/postman-quick-reference-guide/latest/postman-quick-reference-guide.pdf)
 
 ## How to add test to devops container
