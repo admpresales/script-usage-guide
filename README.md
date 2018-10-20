@@ -51,6 +51,9 @@ Instructions on [How to add test to devops container](#how-to-add-test-to-devops
 
 [Git Tip: Tags](http://alblue.bandlem.com/2011/04/git-tip-of-week-tags.html)
 
+## Postman Client
+[Postman Cheatsheet](https://media.readthedocs.org/pdf/postman-quick-reference-guide/latest/postman-quick-reference-guide.pdf)
+
 ## How to add test to devops container
 &#x1F340; `If you can connect to www.github.com from your devops container, then from a terminal window on NimbusServer with the devops container up, run the following command:`
 
