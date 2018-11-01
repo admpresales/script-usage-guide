@@ -20,7 +20,8 @@ Instructions on [How to add test to devops container](#how-to-add-test-to-devops
 |[aos-web-lft4se](https://github.com/admpresales/aos-web-lft4se) | Maven project demonstrating using LeanFT for Selenium in a simple project.  This was created using the Selenium OIC.|
 |[simple-lft-selenium](https://github.com/admpresales/simple-lft-selenium)|Simple script demonstrating Selenium and LFT used together.  With webdriver launching and LFT attaching to browser and using the Verify and Reporter classes|
 |[oscillating](https://github.com/admpresales/oscillating)|This script was used as part of a training session to demonstrate how areas of the Octane Pipeline Analysis screen gets populated based on how scripts run, pass, fail, etc.|
-|[Mobile_AOS_Test](https://github.com/panama69/Mobile_AOS_Test)|Simple LFT test against AOS on an Android device|
+|[Mobile_AOS_Test - Android](https://github.com/panama69/Mobile_AOS_Test)|Simple LFT test against AOS on an Android device|
+|[Mobile AOS Test - iOS](https://github.com/admpresales/aos-ios-leanft)|LeanFT tests against AOS on an iOS device|
 |[LeanFT_AppliTools](https://github.com/panama69/LeanFT_AppliTools)|Very simple LeanFT/AppliTools test using C#.  The code came from AppliTools website but I add information to readme to aid in setting things up|
 |[LeanFT_Cross_Browser_Mobile](https://github.com/panama69/LeanFT_Cross_Browser_Mobile)|Simple script showing execution across the desktop Firefox browser and the iPhone Safari browser.| 
 |[testng-example](https://github.com/admpresales/testng-example)|Simple TestNG tests using LeanFT Reports to demonstrate how to run TestNG in parallel and pass arguments to a test|
