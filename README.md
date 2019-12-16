@@ -30,12 +30,12 @@ Instruction and expectations for those developing new test scripts can be found 
 
 ## UFT Scripts
 | Script Name  | Note|
- ---------------- | ----------------------------------
-[flight-api-with-gui-verification](https://github.com/admpresales/flight_api_with_gui_verification) | Demonstrates using API test interacting (calling) GUI test.  This script is great for showing customer the value of using API testing with their regression suites. Much of regression testing is setting up specific data scenarios so users can perform the actual test they need. Using API for the setup can drastically reduce the overall execution time.
-[comprehensive-uft-test-flightgui](https://github.com/admpresales/comprehensive-uft-test-flightgui) | UFT script demonstrating several capabilites of UFT (courtesy Ron Sercely)
-[uft-gui-create-aos-account](https://github.com/admpresales/uft-create-aos-account.git)|This UFT test creates a new account in AOS|
-[UFT-using-an-Excel-sheet-with-more-than-256-columns](https://github.com/admpresales/UFT-using-an-Excel-sheet-with-more-than-256-columns.git)|The datatable in a UFT test is limited to 256 columns. This test shows how to open Exel files with up to 16,384 columns.|
-
+ ---------------- | ---------------------------------- |
+| [uft-gui-aos-order-purchase](https://github.com/admpresales/uft-gui-aos-order-purchase) | Demonstrates the shopping business process against AOS. The script logs into AOS; shops and completes the purchase (looping from a local data tabe) ; logs out |
+| [flight-api-with-gui-verification](https://github.com/admpresales/flight_api_with_gui_verification) | Demonstrates using API test interacting (calling) GUI test.  This script is great for showing customer the value of using API testing with their regression suites. Much of regression testing is setting up specific data scenarios so users can perform the actual test they need. Using API for the setup can drastically reduce the overall execution time. |
+| [comprehensive-uft-test-flightgui](https://github.com/admpresales/comprehensive-uft-test-flightgui) | UFT script demonstrating several capabilites of UFT (courtesy Ron Sercely) |
+| [uft-gui-create-aos-account](https://github.com/admpresales/uft-create-aos-account.git)|This UFT test creates a new account in AOS|
+| [UFT-using-an-Excel-sheet-with-more-than-256-columns](https://github.com/admpresales/UFT-using-an-Excel-sheet-with-more-than-256-columns.git)|The datatable in a UFT test is limited to 256 columns. This test shows how to open Exel files with up to 16,384 columns.|
 
 ## VuGen scripts
 | Script Name  | Note|
