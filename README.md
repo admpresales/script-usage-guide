@@ -1,4 +1,4 @@
-# Contents-and-Usage-of-Contained-Scripts
+# script-usage-guide
 This document lists demo assets that the field has found useful as part of a core demo or tailored demo.
 
 **Most** of these test scripts are not considered part of the "core" demo assets which means you will **not** find them delivered as part of the [devops.dockerapp](https://hub.docker.com/r/admpresales/devops.dockerapp/) or the [devops](https://hub.docker.com/r/admpresales/devops/) images.  Test scripts that are shown on this page that **are** part of the core scripts delivered in the Devops image are noted with '(c)'.  For example:
@@ -14,7 +14,7 @@ Instruction and expectations for those developing new test scripts can be found 
 <b>Note test scripts details in the following sections are "old" and do not completely reflect what I am proposing in this doc. Most of what I have added, and want feedback on, is in the "Expectations for those developing new scripts" section.
 </b>
 
-## LeanFT Scripts
+## LeanFT / UFT Developer Scripts
 | Script Name  | Note|
 | ---------------- | ---------------------------------- |
 |[leanft-gherkin](https://github.com/admpresales/leanft-gherkin) (c)| IntelliJ - maven project which uses LeanFT and gherkins features and files and cucumber for execution.  This one actually executes a test against AOS |
