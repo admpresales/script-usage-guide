@@ -1,9 +1,9 @@
-# Contents-and-Usage-of-Contained-Scripts
+# script-usage-guide
 This document lists demo assets that the field has found useful as part of a core demo or tailored demo.
 
 **Most** of these test scripts are not considered part of the "core" demo assets which means you will **not** find them delivered as part of the [devops.dockerapp](https://hub.docker.com/r/admpresales/devops.dockerapp/) or the [devops](https://hub.docker.com/r/admpresales/devops/) images.  Test scripts that are shown on this page that **are** part of the core scripts delivered in the Devops image are noted with '(c)'.  For example:
 ```
-leanft-gherkin (c)
+uftdev-gherkin (c)
 ```
 
 Instructions on [How to add a test script to devops container](#how-to-add-a-test-script-to-devops-container) can be found below. Alternatively, you could just clone or fork the repository into the file system of NimbusClient or NimbusServer.  
@@ -11,31 +11,36 @@ Instructions on [How to add a test script to devops container](#how-to-add-a-tes
 Instruction and expectations for those developing new test scripts can be found below:<br>
 [Expectations for those developing new scripts](#Expectations-for-those-developing-new-scripts)
 
-<b>Note test scripts details in the following sections are "old" and do not completely reflect what I am proposing in this doc. Most of what I have added, and want feedback on, is in the "Expectations for those developing new scripts" section.
-</b>
+Almost all scripts are available on github, from the admpresales account. However, there are a few scripts that are availalble from other github accounts.
+# R&D Assets.
+R&D runs a suite of scripts nightly, as a part of their devops implementation. They are all LeanFT scripts, and are available here:
+[R&D LeanFT Scripts](#https://github.com/aosapp/account-service).
+These scripts are, in general, longer and more involved than those in the admpresales account, since they are trully used in a production environment, (as opposed to the scripts in admpresales, that are more demo focused). One way that this is apparent if you look at the details, is that these assets ONLY use objects in Application Models, so the Application Models are much more extensive than the ones in admpresales.
 
-## LeanFT Scripts
-| Script Name  | Note|
-| ---------------- | ---------------------------------- |
-|[leanft-gherkin](https://github.com/admpresales/leanft-gherkin) (c)| IntelliJ - maven project which uses LeanFT and gherkins features and files and cucumber for execution.  This one actually executes a test against AOS |
-|[octane-gherkin](https://github.com/admpresales/octane-gherkin) (c)|Very similar to LeanFT_Gherkins with the exception that the Gherkin step definitions are left empty so it runs faster.  The intent here is to use when focusing on Octane demos only and LeanFt is not a focus. |
-|[aos-web-lft4se](https://github.com/admpresales/aos-web-lft4se) | Maven project demonstrating using LeanFt for Selenium in a simple project.  This was created using the Selenium OIC. |
-|[simple-lft-selenium](https://github.com/admpresales/simple-lft-selenium)|Simple script demonstrating Selenium and LeanFt used together.  With webdriver launching and LeanFt attaching to browser and using the Verify and Reporter classes |
-|[oscillating](https://github.com/admpresales/oscillating)|This script was used as part of a training session to demonstrate how areas of the Octane Pipeline Analysis screen gets populated based on how scripts run, pass, fail, etc. |
-|[Mobile_AOS_Test - Android](https://github.com/panama69/Mobile_AOS_Test)|Simple LeanFt test against AOS on an Android device
-|[Mobile AOS Test - iOS](https://github.com/admpresales/aos-ios-leanft)|LeanFt tests against AOS on an iOS device |
-|[LeanFT_AppliTools](https://github.com/panama69/LeanFT_AppliTools)|Very simple LeanFT/AppliTools test using C#.  The code came from AppliTools website but I added information to the readme to aid in setting things up |
-|[LeanFT_Cross_Browser_Mobile](https://github.com/panama69/LeanFT_Cross_Browser_Mobile)|Simple script showing execution across the desktop Firefox browser and the iPhone Safari browser. |
-|[testng-example](https://github.com/admpresales/testng-example)|Simple TestNG tests using LeanFt Reports to demonstrate how to run TestNG in parallel and pass arguments to a test |
+The details of the contents is contained in the project [README.md](https://github.com/aosapp/account-service/blob/master/README.md).
+# admpresales Assets
+## UFT One / UFT Developer Scripts <br>(prior to 2020, were LeanFT / UFT Developer)
 
-## UFT Scripts
-| Script Name  | Note|
- ---------------- | ---------------------------------- |
-| [uft-gui-aos-order-purchase](https://github.com/admpresales/uft-gui-aos-order-purchase) | Demonstrates the shopping business process against AOS. The script logs into AOS; shops and completes the purchase (looping from a local data tabe) ; logs out |
-| [flight-api-with-gui-verification](https://github.com/admpresales/flight_api_with_gui_verification) | Demonstrates using API test interacting (calling) GUI test.  This script is great for showing customer the value of using API testing with their regression suites. Much of regression testing is setting up specific data scenarios so users can perform the actual test they need. Using API for the setup can drastically reduce the overall execution time. |
-| [comprehensive-uft-test-flightgui](https://github.com/admpresales/comprehensive-uft-test-flightgui) | UFT script demonstrating several capabilites of UFT (courtesy Ron Sercely) |
-| [uft-gui-create-aos-account](https://github.com/admpresales/uft-create-aos-account.git)|This UFT test creates a new account in AOS|
-| [UFT-using-an-Excel-sheet-with-more-than-256-columns](https://github.com/admpresales/UFT-using-an-Excel-sheet-with-more-than-256-columns.git)|The datatable in a UFT test is limited to 256 columns. This test shows how to open Exel files with up to 16,384 columns.|
+| Script Name (now)                        | Name (pre 2020)                    | Note                                     |
+|------------------------------------------|------------------------------------|------------------------------------------|
+| [uftdev-gherkin](https://github.com/admpresales/leanft-gherkin)<br>(c) | leanft-gherkin                     | IntelliJ - maven project which uses UFT Developer and gherkins features and files and cucumber for execution.  This one actually executes a test against AOS |
+| [octane-gherkin](https://github.com/admpresales/octane-gherkin)<br>(c) | octane-gherkin                     | Very similar to UFT Developer_Gherkins with the exception that the Gherkin step definitions are left empty so it runs faster.  The intent here is to use when focusing on Octane demos only and UFT Developer is not a focus. |
+| [uftdev-se-aos-web](https://github.com/admpresales/aos-web-lft4se) | aos-web-lft4se                     | Maven project demonstrating using UFT Developer for Selenium in a simple project.  This was created using the Selenium OIC. |
+| [uftdev-se](https://github.com/admpresales/simple-lft-selenium) | simple-lft-selenium                | Simple script demonstrating Selenium and UFT Developer used together.  With webdriver launching and UFT Developer attaching to browser and using the Verify and Reporter classes |
+| [oscillating](https://github.com/admpresales/oscillating) | oscillating                        | This script was used as part of a training session to demonstrate how areas of the Octane Pipeline Analysis screen gets populated based on how scripts run, pass, fail, etc. |
+| [uftdev-mobile-android-aos](https://github.com/panama69/Mobile_AOS_Test) | Mobile_AOS_Test - Android          | Simple UFT Developer test against AOS on an Android device |
+| [uftdev-mobile-ios-aos](https://github.com/admpresales/aos-ios-leanft) | Mobile AOS Test  - iOS             | UFT Developer tests against AOS on an iOS device |
+| [uftdev-applitools](https://github.com/panama69/LeanFT_AppliTools) | LeanFT_AppliTools                  | Very simple UFT Developer/AppliTools test using C#.  The code came from AppliTools website but I added information to the readme to aid in setting things up |
+| [uftdev-mobile-cross-browser](https://github.com/panama69/LeanFT_Cross_Browser_Mobile) | LeanFT_Cross_Browser Mobile | Simple script showing execution across the desktop Firefox browser and the iPhone Safari browser. |
+| [testng-example](https://github.com/admpresales/testng-example) | testng-example                     | Simple TestNG tests using UFT Developer Reports to demonstrate how to run TestNG in parallel and pass arguments to a test |
+## UFT One Scripts
+| Script Name (now)                        | Name (pre 2020)                          | Note                                     |
+|------------------------------------------|------------------------------------------|------------------------------------------|
+| [uftone-gui-aos-order-purchase](https://github.com/admpresales/uft-gui-aos-order-purchase) | uft-gui-aos-order-purchase               | Demonstrates the shopping business process against AOS. The script logs into AOS; shops and completes the purchase (looping from a local data tabe) ; logs out |
+| [uftone-flight-api-with-gui-verification](https://github.com/admpresales/flight_api_with_gui_verification) | flight-api-with-gui-verification         | Demonstrates using API test interacting (calling) GUI test.  This script is great for showing customer the value of using API testing with their regression suites. Much of regression testing is setting up specific data scenarios so users can perform the actual test they need. Using API for the setup can drastically reduce the overall execution time. |
+| [uftone-comprehensive-test-flightgui](https://github.com/admpresales/comprehensive-uft-test-flightgui) | comprehensive-uft-test-flightgui         | UFTOne script demonstrating several capabilites of UFT (courtesy Ron Sercely) |
+| [uftone-gui-create-aos-account](https://github.com/admpresales/uft-create-aos-account.git) | uft-gui-create-aos-account               | This UFTOne script which creates a new account in AOS |
+| [uftone-using-an-Excel-sheet-with-more-than-256-columns](https://github.com/admpresales/UFT-using-an-Excel-sheet-with-more-than-256-columns.git) | UFT-using-an-Excel-sheet-with-more-than-256-columns | Prior to v15, The datatable in a UFT test was limited to 256 columns. This test shows how to open Excel files with up to 16,384 columns. Note that starting with v15, 16,364 columns are supported. However, this script shows how a tester can take detailed control of readying/wriging to Excel spreadsheets, which goes well beyond what is available using the UFTOne GUI interface into parameters.  |
 
 ## VuGen scripts
 | Script Name  | Note|
@@ -114,9 +119,9 @@ Scripts should be named: <technology-type-target-short_description>
 Examples:
 
 	uft-gui-aos-create_new_account
-	vugen-truclient-aos-sanity
+	vugen-truclient-aos_sanity
 
-Note: For LeanFt scripts, the format is:
+Note: For UFT Developer scripts, the format is:
 
 	<technology-IDE-type-target-short_description>
 
@@ -126,24 +131,24 @@ If the technology supports it, there should be at least one checkpoint.
 
 If the technology supports it, there should a parameterized value(s).
 
-##### LeanFt
+##### UFT Developer
 Test scripts should be verified within both NimbusClient and NimbusServer, on all installed browsers
 
 Only maven projects should be used.
 
-LeanFT version should be set to use the latest version of LeanFT by modifying the default pom.xml file. Specifically, in properties create a leanft.version tag, with a value of RELEASE.
+UFT Developer version should be set to use the latest version of UFT Developer by modifying the default pom.xml file. Specifically, in properties create a uftdev.version tag, with a value of RELEASE.
 
 
     <properties>
-        <leanft.version>RELEASE</leanft.version>
+        <uftdev.version>RELEASE</uftdev.version>
     </properties>
 
-Then in each LeanFt <dependency>, replace the hard coded version with ${leanft.version}, as shown here:
+Then in each uftdev <dependency>, replace the hard coded version with ${uftdev.version}, as shown here:
 
     <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>sdk</artifactId>
-            <version>${leanft.version}</version>
+            <version>${uftdev.version}</version>
     </dependency>
 
 ##### UFT
