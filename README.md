@@ -21,18 +21,15 @@ The details of the contents is contained in the project [README.md](https://gith
 # admpresales Assets
 ## UFT One / UFT Developer Scripts <br>(prior to 2020, were LeanFT / UFT Developer)
 
-| Script Name (now)                        | Name (pre 2020)                    | Note                                     |
-|------------------------------------------|------------------------------------|------------------------------------------|
-| [uftdev-aos-web-gherkin](https://github.com/admpresales/uftdev-aos-web-gherkin)<br>(c) | leanft-gherkin                     | IntelliJ - maven project which uses UFT Developer and gherkins features and files and cucumber for execution.  This one actually executes a test against AOS |
-| [octane-gherkin](https://github.com/admpresales/octane-gherkin)<br>(c) | octane-gherkin                     | Very similar to UFT Developer_Gherkins with the exception that the Gherkin step definitions are left empty so it runs faster.  The intent here is to use when focusing on Octane demos only and UFT Developer is not a focus. |
-| [uftdev-aos-web-se](https://github.com/admpresales/aos-web-lft4se) | aos-web-lft4se                     | Maven project demonstrating using UFT Developer for Selenium in a simple project.  This was created using the Selenium OIC. |
-| [uftdev-se](https://github.com/admpresales/simple-lft-selenium) | simple-lft-selenium                | Simple script demonstrating Selenium and UFT Developer used together.  With webdriver launching and UFT Developer attaching to browser and using the Verify and Reporter classes |
-| [oscillating](https://github.com/admpresales/oscillating) | oscillating                        | This script was used as part of a training session to demonstrate how areas of the Octane Pipeline Analysis screen gets populated based on how scripts run, pass, fail, etc. |
-| [uftdev-aos-mobile-android](https://github.com/panama69/Mobile_AOS_Test) | Mobile_AOS_Test - Android          | Simple UFT Developer test against AOS on an Android device |
-| [uftdev-aos-mobile-ios](https://github.com/admpresales/aos-ios-leanft) | Mobile AOS Test  - iOS             | UFT Developer tests against AOS on an iOS device |
-| [uftdev-applitools](https://github.com/panama69/LeanFT_AppliTools) | LeanFT_AppliTools                  | Very simple UFT Developer/AppliTools test using C#.  The code came from AppliTools website but I added information to the readme to aid in setting things up |
-| [uftdev-mobile-cross-browser](https://github.com/panama69/LeanFT_Cross_Browser_Mobile) | LeanFT_Cross_Browser Mobile | Simple script showing execution across the desktop Firefox browser and the iPhone Safari browser. |
-| [testng-example](https://github.com/admpresales/testng-example) | testng-example                     | Simple TestNG tests using UFT Developer Reports to demonstrate how to run TestNG in parallel and pass arguments to a test |
+| Script Name (now)                        | Name (pre 2020)        | Note                                     |
+|------------------------------------------|------------------------|------------------------------------------|
+| [uftdev-aos-web-gherkin](https://github.com/admpresales/uftdev-aos-web-gherkin)<br>(c) | leanft-gherkin         | IntelliJ - maven project which uses UFT Developer and gherkins features and files and cucumber for execution.  This one actually executes a test against AOS |
+| [octane-gherkin](https://github.com/admpresales/octane-gherkin)<br>(c) | octane-gherkin         | Very similar to UFT Developer_Gherkins with the exception that the Gherkin step definitions are left empty so it runs faster.  The intent here is to use when focusing on Octane demos only and UFT Developer is not a focus. |
+| [uftdev-aos-web-se](https://github.com/admpresales/aos-web-lft4se) | aos-web-lft4se         | Maven project demonstrating using UFT Developer for Selenium in a simple project.  This was created using the Selenium OIC. |
+| [uftdev-se](https://github.com/admpresales/simple-lft-selenium) | simple-lft-selenium    | Simple script demonstrating Selenium and UFT Developer used together.  With webdriver launching and UFT Developer attaching to browser and using the Verify and Reporter classes |
+| [oscillating](https://github.com/admpresales/oscillating) | oscillating            | This script was used as part of a training session to demonstrate how areas of the Octane Pipeline Analysis screen gets populated based on how scripts run, pass, fail, etc. |
+| [uftdev-aos-mobile-ios](https://github.com/admpresales/aos-ios-leanft) | Mobile AOS Test  - iOS | UFT Developer tests against AOS on an iOS device |
+| [testng-example](https://github.com/admpresales/testng-example) | testng-example         | Simple TestNG tests using UFT Developer Reports to demonstrate how to run TestNG in parallel and pass arguments to a test |
 ## UFT One Scripts
 | Script Name (now)                        | Name (pre 2020)                          | Note                                     |
 |------------------------------------------|------------------------------------------|------------------------------------------|
@@ -49,11 +46,9 @@ The details of the contents is contained in the project [README.md](https://gith
 |[vugen-correlation-examples](https://github.com/admpresales/vugen-correlation-examples.git) |This repository contains two VuGen scripts, which contain correlations of increasing complexity. It also contains a PowerPoint presentation which explains correlation in general, and what is in these scripts in particular.|
 
 ## Utility scripts
-| Script Name  | Note|
-| ---------------- | ---------------------------------- |
-|[jenkins-jobs](https://github.houston.softwaregrp.net/AMSPreSales-Demos/jenkins-jobs)|This is a set of scripts to extract or deploy Jenkins views and jobs.  It also contains the jobs and views from the released version of the devops docker image|
-|[Docker Server Scripts ](https://github.com/panama69/DockerScripts.git)|Scripts used to start various containers for the demos|
-|[uft-gui-alm-load-qcp-files](https://github.com/admpresales/uft-gui-alm-load-qcp-files.git)|This utility script was written to enable TE to easily load multiple .qcp files into ALM from the administration web page.
+| Script Name                              | Note                                     |
+|------------------------------------------|------------------------------------------|
+| [uft-gui-alm-load-qcp-files](https://github.com/admpresales/uft-gui-alm-load-qcp-files.git) | This utility script was written to enable TE to easily load multiple .qcp files into ALM from the administration web page. |
 
 ## Branching and Merging strategies
 [A Successful Git Branching Model](http://nvie.com/posts/a-successful-git-branching-model/)
