@@ -91,7 +91,7 @@ All projects must have a useful README.md. Help on how to create the README.md u
 * [Basic Writing and Formatting](https://help.github.com/articles/basic-writing-and-formatting-syntax)
 * [Markdown Cheat sheet PDF](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-If you are going to be writing a lot of Markdown, or writing something "fancy", you might want to install MarkdownPad, which allows you to develop Markdown on your desktop where you see the "code" and results side by side:<br>
+If you are going to be writing a lot of Markdown, or writing something "fancy", you might want to install MarkdownPad, Markdown Monster, or one of the many other tools available on the internet. These tools allow you to develop Markdown on your desktop where you see the "code" and results side by side. They also support creating tables, which can be quite painful if you do not use one of these tools. You can get MarkdownPad here:<br>
 [Markdown editor for your desktop](http://markdownpad.com/news/2013/introducing-markdownpad-2)
 
 To make it work on Windows 10 however, you will also need to install awesomium sdk:<br>
