@@ -23,6 +23,7 @@ The details of the contents is contained in the project [README.md](https://gith
 
 | Script Name (now)                        | Name (pre 2020)        | Note                                     |
 |------------------------------------------|------------------------|------------------------------------------|
+| [uftdev-aos-for-340-training](https://github.com/admpresales/uftdev-aos-for-340-training.git) | N/A                    | There is a level 340 training on UFT Dev. This repository has completed tests that are shown in the training video |
 | [uftdev-aos-web-gherkin](https://github.com/admpresales/uftdev-aos-web-gherkin)<br>(c) | leanft-gherkin         | IntelliJ - maven project which uses UFT Developer and gherkins features and files and cucumber for execution.  This one actually executes a test against AOS |
 | [octane-gherkin](https://github.com/admpresales/octane-gherkin)<br>(c) | octane-gherkin         | Very similar to UFT Developer_Gherkins with the exception that the Gherkin step definitions are left empty so it runs faster.  The intent here is to use when focusing on Octane demos only and UFT Developer is not a focus. |
 | [uftdev-aos-web-se](https://github.com/admpresales/aos-web-lft4se) | aos-web-lft4se         | Maven project demonstrating using UFT Developer for Selenium in a simple project.  This was created using the Selenium OIC. |
